@@ -1,0 +1,31 @@
+.header{
+    margin-top: 60px;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Meow Script', cursive;
+    color: #444;
+}
+.headerTitleSm{
+    position: sticky;
+    position: absolute; /*Lồng vào phần tử mẹ*/
+    top: 18%;
+    font-size: 20px;
+}
+
+.headerTitleLg{
+    position: absolute;
+    top: 5%;
+    font-size: 100px;
+    color: black;
+    font-weight: 550;
+}
+
+.headerImg{
+    width: 100%;
+    height: 550px;
+    margin-top: 80px;
+    object-fit: cover;
+}
